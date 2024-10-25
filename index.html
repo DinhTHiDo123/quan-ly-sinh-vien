@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản Lý Sinh Viên - Đỗ Đình Thi</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <h1>Quản Lý Sinh Viên - Đỗ Đình Thi</h1>
+    <div class="container">
+        <h2 class="text-input">Mã sinh viên</h2>
+        <input id="masv" type="text">
+        <h3 class="text-input">Tên Sinh viên</h3>
+        <input id="name" type="text">
+        <h4 class="text-input">Địa chỉ</h4>
+        <input id="diachi" type="text">
+        <h5 class="text-input">SĐT</h5>
+        <input id="number" type="text">
+        <button id="button" onclick="adddulieu()">Create</button>
+        <table class="student-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Mã SV</th>
+                    <th>Tên SV</th>
+                    <th>Địa Chỉ</th>
+                    <th>SĐT</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="data">
+            </tbody>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
